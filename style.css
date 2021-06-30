@@ -1,0 +1,161 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;	
+}
+
+body{
+	background: linear-gradient(rgba(0,0,50,0.5), rgba(0,0,50,0.5)), url(pozadina.png);
+	background-size: 1440px 1490px;
+	
+	
+	font-family: sans-serif;
+}
+
+.menu{
+	background: #FF0000;
+	text-align: center;
+}
+
+.menu ul{
+	display: inline-flex;
+	list-style: none;
+	color: #FFFAF0;
+}
+
+.menu ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #FFFAF0;
+}
+
+.active, .menu ul li:hover{
+	background: #FF6347;
+	border-radius: 4px;
+}
+
+.submenu-1 {
+	display: none;
+}
+
+.menu ul li:hover .submenu-1{
+	display: block;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: -15px;
+	background: #FF0000;
+}
+
+.menu ul li:hover .submenu-1 ul{
+	display: block;
+	margin: 10px;
+}
+
+.menu ul li:hover .submenu-1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #FFFAF0;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+
+.menu ul li:hover .submenu-1 ul li:last-child{
+	border-bottom: none;
+}
+
+.menu ul li:hover .submenu-1 ul li a:hover{
+	color: #800000;
+}
+
+.logo{
+	position: relative;
+top: 25px;
+width: 55px;
+height: 60px;
+left: -65px;
+}
+
+footer {
+	height:38px;width:94%;
+background: #FF0000;
+position:absolute;
+bottom:50px;
+left:0;
+right:0;
+margin-left:3em;
+margin-right:auto;
+margin-bottom: -8em;
+color: white;
+font: normal 13px verdana, sans-serif;
+text-align: center;
+font-size: 18px;
+}
+
+.banner{
+	display: flex;
+	margin-top: 80px;
+	
+}
+
+.left_column, .right_column{
+	flex-basis: 50%;
+}
+
+.right_column img{
+	width: 100%;
+	
+}
+
+.left_column h1{
+	font-size: 100px;
+	
+}
+
+.left_column h3{
+	font-size: 35px;
+}
+
+span{
+	color: #FF0000
+	
+}
+
+.left_column p{
+	font-size: 30px;
+	color: #fff;
+	margin: 50px 0;
+}
+
+.social{
+	width: 20px;
+	text-align: center;
+	opacity: .4;
+	
+}
+
+.social img{
+	height: 55px;
+	margin: 0 14px;
+	
+}
+
+.left_column p{
+	margin-bottom: 50px;
+}
+
+.left_column{
+	margin-left: 20px;
+}
+
+.right_column {
+	margin-bottom: 100px;
+	margin-right: 20px;
+}
+	

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Stadion </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stadion-style.css">
+</head>
+<body>
+<div class="menu">
+<img src="iskra.png"  class="logo">
+<ul>
+<li> <a href="index.html">Početna stranica </a></li>
+<li><a href="about.html"> O nama </a> </li>
+<li> <a href="#"> Tim </a>
+<div class="submenu-1">
+<ul>
+<li> <a href="igraci.html"> Igrači </a> </li>
+<li> <a href="struka.html"> Stručni štab </a> </li>
+
+</ul>
+</div>
+</li>
+<li> <a href="#"> Utakmice </a>
+<div class="submenu-1">
+<ul>
+<li> <a href="raspored.html"> Raspored </a> </li>
+<li> <a href="rezultati.html"> Rezultati </a> </li>
+
+</ul>
+</div>
+ </li>
+<li> <a href="tabela.html"> Tabela </a> </li>
+<li> <a href="stadion.html"> Stadion </a> </li>
+<li> <a href="index.php"> Kontakt </a></li>
+</ul>
+</div>
+<h1> Stadion "Zagrad" </h1>
+<p> Lokacija: Stolac <br>
+ Veličina terena: 105 x 68 m <br>
+ Kapacitet: 500 </p>
+<div class="slike">
+<div class="slike-small-img">
+<img src="stadion1.jpg" onclick="myFunction(this)">
+<img src="stadion2.jpg" onclick="myFunction(this)">
+<img src="stadion3.jpg" onclick="myFunction(this)">
+<img src="stadion4.jpg" onclick="myFunction(this)">
+<img src="stadion5.jpg" onclick="myFunction(this)">
+
+</div>
+<div  class="img-container">
+<img id="imageBox" src="stadion1.jpg">
+</div>
+</div>
+
+<script>
+function myFunction(smallImg){
+var fullImg = document.getElementById("imageBox");
+fullImg.src = smallImg.src;
+
+}
+</script>
+</body>
+</html>

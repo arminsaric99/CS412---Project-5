@@ -1,0 +1,119 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;	
+}
+
+body{
+	background: linear-gradient(rgba(0,0,50,0.5), rgba(0,0,50,0.5)), url(pozadina.png);
+	background-size: 1440px 1490px;
+	
+	
+	font-family: sans-serif;
+}
+
+.menu{
+	background: #FF0000;
+	text-align: center;
+}
+
+.menu ul{
+	display: inline-flex;
+	list-style: none;
+	color: #FFFAF0;
+}
+
+.menu ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #FFFAF0;
+}
+
+.active, .menu ul li:hover{
+	background: #FF6347;
+	border-radius: 4px;
+}
+
+.submenu-1 {
+	display: none;
+}
+
+.menu ul li:hover .submenu-1{
+	display: block;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: -15px;
+	background: #FF0000;
+}
+
+.menu ul li:hover .submenu-1 ul{
+	display: block;
+	margin: 10px;
+}
+
+.menu ul li:hover .submenu-1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #FFFAF0;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+
+.menu ul li:hover .submenu-1 ul li:last-child{
+	border-bottom: none;
+}
+
+.menu ul li:hover .submenu-1 ul li a:hover{
+	color: #800000;
+}
+
+.logo{
+	position: relative;
+top: 25px;
+width: 55px;
+height: 60px;
+left: -65px;
+}
+
+h3{
+	margin-top: 25px;
+	margin-left: 550px;
+	font-size: 30px;
+	font-weight: 150px;
+	letter-spacing: 3px;
+	align-items: center;
+}
+
+h4{
+	font-weight: 80;
+	margin-left: 550px;
+	font-size: 19px;
+	color: blue;
+	letter-spacing: 3px;
+	align-items: center;
+}
+
+p{
+	
+	margin-left: 550px;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 3px;
+	align-items: center;
+}
+
+b{
+	color: red;
+}
+
+
+
+
+

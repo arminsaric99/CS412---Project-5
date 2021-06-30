@@ -1,0 +1,65 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Kontakt </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="kontakt-style.css">
+</head>
+
+<body>
+<div class="menu">
+<img src="iskra.png"  class="logo">
+<ul>
+<li> <a href="index.html">Početna stranica </a></li>
+<li><a href="about.html"> O nama </a> </li>
+<li> <a href="#"> Tim </a>
+<div class="submenu-1">
+<ul>
+<li> <a href="igraci.html"> Igrači </a> </li>
+<li> <a href="#"> Stručni štab </a> </li>
+
+</ul>
+</div>
+</li>
+<li> <a href="#"> Utakmice </a>
+<div class="submenu-1">
+<ul>
+<li> <a href="raspored.html"> Raspored </a> </li>
+<li> <a href="rezultati.html"> Rezultati </a> </li>
+
+</ul>
+</div>
+ </li>
+<li> <a href="tabela.html"> Tabela </a> </li>
+<li> <a href="stadion.html"> Stadion </a> </li>
+<li> <a href="kontakt.html"> Kontakt </a></li>
+</ul>
+</div>
+
+<div class="contact-title">
+<h1> Zdravo </h1>
+<h2> Uvijek smo spremni saslušati Vas! </h2>
+</div>
+
+
+<div class="contact-form">
+<form id="contact-form" method="post" action="user_process.php">
+<input name="name" type="text" class="form-control" placeholder="Ime i prezime" required>
+<br>
+<input name="city" type="text" class="form-control" placeholder="Grad" required>
+<br>
+<input name="email" type="email" class="form-control" placeholder="Vaš E-mail" required>
+<br>
+<textarea name="message" class="form-control" placeholder="Vaša poruka" row="4" required></textarea><br>
+
+<input type="submit" class="form-control submit" value="POŠALJI">  
+ 
+
+</form>
+</div>
+</body>
+</html>
